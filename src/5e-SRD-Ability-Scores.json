@@ -1,42 +1,42 @@
 [
   {
-    "index": "str",
+    "index": "str",  
     "name": "STR",
-    "full_name": "Strength",
+    "full_name": "Fuerza",
     "desc": [
-      "Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.",
-      "A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks."
+      "La Fuerza mide el poder físico, el entrenamiento atlético y la capacidad de ejercer fuerza bruta.",
+      "Una tirada de Fuerza puede representar cualquier intento de levantar, empujar, tirar o romper algo, forzar el paso del cuerpo a través de un espacio o aplicar fuerza bruta a una situación de algún otro modo. La habilidad Atletismo refleja la aptitud en ciertas tiradas de Fuerza."
     ],
     "skills": [
       {
-        "name": "Athletics",
+        "name": "Atletismo",
         "index": "athletics",
-        "url": "/api/skills/athletics"
+        "url": "/api/skills/athletics"  
       }
     ],
     "url": "/api/ability-scores/str"
   },
   {
     "index": "dex",
-    "name": "DEX",
-    "full_name": "Dexterity",
+    "name": "DES",  
+    "full_name": "Destreza",
     "desc": [
-      "Dexterity measures agility, reflexes, and balance.",
-      "A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The Acrobatics, Sleight of Hand, and Stealth skills reflect aptitude in certain kinds of Dexterity checks."
+      "La Destreza mide la agilidad, los reflejos y el equilibrio.",
+      "Una tirada de Destreza puede representar cualquier intento de moverse con agilidad, rapidez o sigilo, o de mantener el equilibrio en una superficie irregular. Las habilidades Acrobacias, Juegos de Manos y Sigilo reflejan la aptitud en ciertas tiradas de Destreza." 
     ],
     "skills": [
       {
-        "name": "Acrobatics",
+        "name": "Acrobacias",
         "index": "acrobatics",
         "url": "/api/skills/acrobatics"
       },
       {
-        "name": "Sleight of Hand",
+        "name": "Juegos de Manos",  
         "index": "sleight-of-hand",
         "url": "/api/skills/sleight-of-hand"
       },
       {
-        "name": "Stealth",
+        "name": "Sigilo",
         "index": "stealth",
         "url": "/api/skills/stealth"
       }
@@ -46,10 +46,10 @@
   {
     "index": "con",
     "name": "CON",
-    "full_name": "Constitution",
+    "full_name": "Constitución",
     "desc": [
-      "Constitution measures health, stamina, and vital force.",
-      "Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster."
+      "La Constitución mide la salud, la resistencia y la fuerza vital.",
+      "Las tiradas de Constitución son poco comunes, y ninguna habilidad se aplica a las tiradas de Constitución, porque la resistencia que representa esta capacidad es en gran parte pasiva en lugar de suponer un esfuerzo concreto por parte de un personaje o monstruo."
     ],
     "skills": [],
     "url": "/api/ability-scores/con"
@@ -57,10 +57,10 @@
   {
     "index": "int",
     "name": "INT",
-    "full_name": "Intelligence",
+    "full_name": "Inteligencia", 
     "desc": [
-      "Intelligence measures mental acuity, accuracy of recall, and the ability to reason.",
-      "An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The Arcana, History, Investigation, Nature, and Religion skills reflect aptitude in certain kinds of Intelligence checks."
+      "La Inteligencia mide la perspicacia mental, la memoria y la capacidad de razonamiento.",
+      "Una tirada de Inteligencia entra en juego cuando necesitas echar mano de la lógica, la educación, la memoria o el razonamiento deductivo. Las habilidades Arcana, Historia, Investigación, Naturaleza y Religión reflejan la aptitud en ciertas tiradas de Inteligencia."
     ],
     "skills": [
       {
@@ -69,59 +69,59 @@
         "url": "/api/skills/arcana"
       },
       {
-        "name": "History",
-        "index": "history",
+        "name": "Historia",
+        "index": "history", 
         "url": "/api/skills/history"
       },
       {
-        "name": "Investigation",
+        "name": "Investigación",
         "index": "investigation",
         "url": "/api/skills/investigation"
       },
       {
-        "name": "Nature",
+        "name": "Naturaleza",
         "index": "nature",
         "url": "/api/skills/nature"
       },
       {
-        "name": "Religion",
+        "name": "Religión",
         "index": "religion",
-        "url": "/api/skills/religion"
+        "url": "/api/skills/religion" 
       }
     ],
     "url": "/api/ability-scores/int"
   },
   {
     "index": "wis",
-    "name": "WIS",
-    "full_name": "Wisdom",
+    "name": "SAB",
+    "full_name": "Sabiduría",
     "desc": [
-      "Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.",
-      "A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The Animal Handling, Insight, Medicine, Perception, and Survival skills reflect aptitude in certain kinds of Wisdom checks."
+      "La Sabiduría refleja cuán en sintonía estás con el mundo que te rodea y representa la perceptividad e intuición.",
+      "Una tirada de Sabiduría podría reflejar el esfuerzo para interpretar lenguaje corporal, entender los sentimientos de alguien, notar cosas sobre el entorno o cuidar a una persona herida. Las habilidades Trato con animales, Intuición, Medicina, Percepción y Supervivencia reflejan la aptitud en ciertas tiradas de Sabiduría."
     ],
     "skills": [
       {
-        "name": "Animal Handling",
+        "name": "Trato con animales",
         "index": "animal-handling",
         "url": "/api/skills/animal-handling"
       },
       {
-        "name": "Insight",
+        "name": "Intuición",
         "index": "insight",
         "url": "/api/skills/insight"
       },
       {
-        "name": "Medicine",
+        "name": "Medicina",
         "index": "medicine",
         "url": "/api/skills/medicine"
       },
       {
-        "name": "Perception",
+        "name": "Percepción",
         "index": "perception",
         "url": "/api/skills/perception"
       },
       {
-        "name": "Survival",
+        "name": "Supervivencia",
         "index": "survival",
         "url": "/api/skills/survival"
       }
@@ -130,34 +130,34 @@
   },
   {
     "index": "cha",
-    "name": "CHA",
-    "full_name": "Charisma",
+    "name": "CAR",
+    "full_name": "Carisma",
     "desc": [
-      "Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.",
-      "A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The Deception, Intimidation, Performance, and Persuasion skills reflect aptitude in certain kinds of Charisma checks."
+      "El Carisma mide tu capacidad de interactuar de manera efectiva con los demás. Incluye factores como la confianza en ti mismo y la elocuencia, y puede representar un carácter encantador o autoritario.",
+      "Una tirada de Carisma podría surgir cuando intentas influir o entretener a otros, cuando intentas causar una buena impresión o decir una mentira convincente, o cuando te enfrentas a una situación social complicada. Las habilidades Engaño, Intimidación, Interpretación y Persuasión reflejan la aptitud en ciertas tiradas de Carisma."
     ],
     "skills": [
       {
-        "name": "Deception",
+        "name": "Engaño",
         "index": "deception",
         "url": "/api/skills/deception"
       },
       {
-        "name": "Intimidation",
+        "name": "Intimidación",
         "index": "intimidation",
         "url": "/api/skills/intimidation"
       },
       {
-        "name": "Performance",
+        "name": "Interpretación",
         "index": "performance",
         "url": "/api/skills/performance"
       },
       {
-        "name": "Persuasion",
+        "name": "Persuasión",
         "index": "persuasion",
         "url": "/api/skills/persuasion"
       }
-    ],
+    ], 
     "url": "/api/ability-scores/cha"
   }
 ]
