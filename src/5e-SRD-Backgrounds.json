@@ -1,16 +1,16 @@
 [
   {
     "index": "acolyte",
-    "name": "Acolyte",
+    "name": "Acólito",
     "starting_proficiencies": [
       {
         "index": "skill-insight",
-        "name": "Skill: Insight",
+        "name": "Habilidad: Intuición",
         "url": "/api/proficiencies/skill-insight"
       },
       {
         "index": "skill-religion",
-        "name": "Skill: Religion",
+        "name": "Habilidad: Religión",
         "url": "/api/proficiencies/skill-religion"
       }
     ],
@@ -26,7 +26,7 @@
       {
         "equipment": {
           "index": "clothes-common",
-          "name": "Clothes, common",
+          "name": "Ropa común",
           "url": "/api/equipment/clothes-common"
         },
         "quantity": 1
@@ -34,7 +34,7 @@
       {
         "equipment": {
           "index": "pouch",
-          "name": "Pouch",
+          "name": "Bolsa",
           "url": "/api/equipment/pouch"
         },
         "quantity": 1
@@ -48,17 +48,17 @@
           "option_set_type": "equipment_category",
           "equipment_category": {
             "index": "holy-symbols",
-            "name": "Holy Symbols",
+            "name": "Símbolos sagrados",
             "url": "/api/equipment-categories/holy-symbols"
           }
         }
       }
     ],
     "feature": {
-      "name": "Shelter of the Faithful",
+      "name": "Refugio de los fieles",
       "desc": [
-        "As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.",
-        "You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+        "Como acólito, inspiras respeto en los que comparten tu fe y puedes realizar las ceremonias religiosas de tu deidad. Tus compañeros de aventuras y tú podéis esperar recibir curación y cuidados gratis en un templo, santuario o cualquier establecimiento de tu fe, aunque debéis aportar los componentes materiales necesarios. Quienes compartan tu religión te financiarán un estilo de vida modesto (pero solo a ti).",
+        "También puedes tener vínculos con un templo específico dedicado a la deidad o panteón que hayas elegido y tener una residencia ahí. Puede ser el templo en que solías servir, si quedaste en buenos términos con ellos, o uno donde hayas encontrado un nuevo hogar. Mientras estés cerca de tu templo, puedes recurrir a sus sacerdotes para pedir ayuda, siempre y cuando lo que pidas no sea peligroso y quedes bien con tu templo."
       ]
     },
     "personality_traits": {
@@ -69,35 +69,35 @@
         "options": [
           {
             "option_type": "string",
-            "string": "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example."
+            "string": "Idolatro a un héroe en particular de mi fe y hablo constantemente de sus hazañas y su ejemplo."
           },
           {
             "option_type": "string",
-            "string": "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace."
+            "string": "Puedo encontrar intereses comunes con mis enemigos más fieros, empatizar con ellos y trabajar por la paz."
           },
           {
             "option_type": "string",
-            "string": "I see omens in every event and action. The gods try to speak to us, we just need to listen."
+            "string": "Veo presagios en todos los eventos y acciones. Los dioses intentan hablarnos, simplemente tenemos que escucharlos."
           },
           {
             "option_type": "string",
-            "string": "Nothing can shake my optimistic attitude."
+            "string": "Nada puede turbar mi optimismo."
           },
           {
             "option_type": "string",
-            "string": "I quote (or misquote) sacred texts and proverbs in almost every situation."
+            "string": "Cito (a veces mal) textos y proverbios sagrados en casi todas las situaciones."
           },
           {
             "option_type": "string",
-            "string": "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods."
+            "string": "Tolero (o no) otras fes y respeto (o condeno) que se adoren otros dioses."
           },
           {
             "option_type": "string",
-            "string": "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me."
+            "string": "He disfrutado de buena comida y bebida, y de la alta sociedad entre la élite de mi templo. La vida agreste me pone de los nervios."
           },
           {
             "option_type": "string",
-            "string": "I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+            "string": "He pasado tanto tiempo en el templo que tengo poca experiencia tratando con gente del mundo exterior."
           }
         ]
       }
@@ -110,131 +110,131 @@
         "options": [
           {
             "option_type": "ideal",
-            "desc": "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld.",
+            "desc": "Tradición. Las antiguas tradiciones de la veneración y el sacrificio deben preservarse y defenderse.",
             "alignments": [
               {
                 "index": "lawful-good",
-                "name": "Lawful Good",
+                "name": "Legal bueno",
                 "url": "/api/alignments/lawful-good"
               },
               {
                 "index": "lawful-neutral",
-                "name": "Lawful Neutral",
+                "name": "Legal neutro",
                 "url": "/api/alignments/lawful-neutral"
               },
               {
                 "index": "lawful-evil",
-                "name": "Lawful Evil",
+                "name": "Legal malvado",
                 "url": "/api/alignments/lawful-evil"
               }
             ]
           },
           {
             "option_type": "ideal",
-            "desc": "Charity. I always try to help those in need, no matter what the personal cost.",
+            "desc": "Caridad. Siempre intento ayudar a los que lo necesitan, sin importar el coste personal.",
             "alignments": [
               {
                 "index": "lawful-good",
-                "name": "Lawful Good",
+                "name": "Legal bueno",
                 "url": "/api/alignments/lawful-good"
               },
               {
                 "index": "neutral-good",
-                "name": "Neutral Good",
+                "name": "Neutral bueno",
                 "url": "/api/alignments/neutral-good"
               },
               {
                 "index": "chaotic-good",
-                "name": "Chaotic Good",
+                "name": "Caótico bueno",
                 "url": "/api/alignments/chaotic-good"
               }
             ]
           },
           {
             "option_type": "ideal",
-            "desc": "Change. We must help bring about the changes the gods are constantly working in the world.",
+            "desc": "Cambio. Debemos ayudar a provocar los cambios que los dioses introducen en el mundo.",
             "alignments": [
               {
                 "index": "chaotic-good",
-                "name": "Chaotic Good",
+                "name": "Caótico bueno",
                 "url": "/api/alignments/chaotic-good"
               },
               {
                 "index": "chaotic-neutral",
-                "name": "Chaotic Neutral",
+                "name": "Caótico neutral",
                 "url": "/api/alignments/chaotic-neutral"
               },
               {
                 "index": "chaotic-evil",
-                "name": "Chaotic Evil",
+                "name": "Caótico malvado",
                 "url": "/api/alignments/chaotic-evil"
               }
             ]
           },
           {
             "option_type": "ideal",
-            "desc": "Power. I hope to one day rise to the top of my faith's religious hierarchy.",
+            "desc": "Poder. Espero llegar un día a lo más alto de la jerarquía religiosa de mi fe.",
             "alignments": [
               {
                 "index": "lawful-good",
-                "name": "Lawful Good",
+                "name": "Legal bueno",
                 "url": "/api/alignments/lawful-good"
               },
               {
                 "index": "lawful-neutral",
-                "name": "Lawful Neutral",
+                "name": "Legal neutro",
                 "url": "/api/alignments/lawful-neutral"
               },
               {
                 "index": "lawful-evil",
-                "name": "Lawful Evil",
+                "name": "Legal malvado",
                 "url": "/api/alignments/lawful-evil"
               }
             ]
           },
           {
             "option_type": "ideal",
-            "desc": "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well.",
+            "desc": "Fe. Creo en que mi deidad guiará mis acciones. Tengo fe en el trabajo duro, todo irá bien.",
             "alignments": [
               {
                 "index": "lawful-good",
-                "name": "Lawful Good",
+                "name": "Legal bueno",
                 "url": "/api/alignments/lawful-good"
               },
               {
                 "index": "lawful-neutral",
-                "name": "Lawful Neutral",
+                "name": "Legal neutro",
                 "url": "/api/alignments/lawful-neutral"
               },
               {
                 "index": "lawful-evil",
-                "name": "Lawful Evil",
+                "name": "Legal malvado",
                 "url": "/api/alignments/lawful-evil"
               }
             ]
           },
           {
             "option_type": "ideal",
-            "desc": "Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings.",
+            "desc": "Aspiración. Mi intención es demostrarme a mí mismo que merezco el favor de mi dios actuando según sus enseñanzas.",
             "alignments": [
               {
                 "index": "lawful-good",
-                "name": "Lawful Good",
+                "name": "Legal bueno",
                 "url": "/api/alignments/lawful-good"
               },
               {
                 "index": "neutral-good",
-                "name": "Neutral Good",
+                "name": "Neutral bueno",
                 "url": "/api/alignments/neutral-good"
               },
               {
                 "index": "chaotic-good",
-                "name": "Chaotic Good",
+                "name": "Caótico bueno",
                 "url": "/api/alignments/chaotic-good"
               },
               {
                 "index": "lawful-neutral",
-                "name": "Lawful Neutral",
+                "name": "Legal neutro",
                 "url": "/api/alignments/lawful-neutral"
               },
               {
@@ -244,22 +244,22 @@
               },
               {
                 "index": "chaotic-neutral",
-                "name": "Chaotic Neutral",
+                "name": "Caótico neutral",
                 "url": "/api/alignments/chaotic-neutral"
               },
               {
                 "index": "lawful-evil",
-                "name": "Lawful Evil",
+                "name": "Legal malvado",
                 "url": "/api/alignments/lawful-evil"
               },
               {
                 "index": "neutral-evil",
-                "name": "Neutral Evil",
+                "name": "Neutral malvado",
                 "url": "/api/alignments/neutral-evil"
               },
               {
                 "index": "chaotic-evil",
-                "name": "Chaotic Evil",
+                "name": "Caótico malvado",
                 "url": "/api/alignments/chaotic-evil"
               }
             ]
@@ -275,27 +275,27 @@
         "options": [
           {
             "option_type": "string",
-            "string": "I would die to recover an ancient relic of my faith that was lost long ago."
+            "string": "Moriría por recuperar una antigua reliquia de mi fe que se perdió hace mucho."
           },
           {
             "option_type": "string",
-            "string": "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic."
+            "string": "Algún día me vengaré de la jerarquía corrupta del templo que me tachó de hereje."
           },
           {
             "option_type": "string",
-            "string": "I owe my life to the priest who took me in when my parents died."
+            "string": "Le debo mi vida al sacerdote que me acogió cuando murieron mis padres."
           },
           {
             "option_type": "string",
-            "string": "Everything I do is for the common people."
+            "string": "Todo lo que hago es por el pueblo llano."
           },
           {
             "option_type": "string",
-            "string": "I will do anything to protect the temple where I served."
+            "string": "Haré cualquier cosa por proteger el templo al que he servido."
           },
           {
             "option_type": "string",
-            "string": "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+            "string": "Pretendo preservar un texto sagrado que mis enemigos consideran sacrílego y que quieren destruir."
           }
         ]
       }
@@ -308,27 +308,27 @@
         "options": [
           {
             "option_type": "string",
-            "string": "I judge others harshly, and myself even more severely."
+            "string": "Juzgo a los demás con dureza y a mí mismo con aún más severidad."
           },
           {
             "option_type": "string",
-            "string": "I put too much trust in those who wield power within my temple's hierarchy."
+            "string": "Confío demasiado en los que tienen poder dentro de la jerarquía de mi templo."
           },
           {
             "option_type": "string",
-            "string": "My piety sometimes leads me to blindly trust those that profess faith in my god."
+            "string": "A veces mi piedad me lleva a confiar a ciegas en los que profesan la fe de mi dios."
           },
           {
             "option_type": "string",
-            "string": "I am inflexible in my thinking."
+            "string": "Soy inflexible en mis opiniones."
           },
           {
             "option_type": "string",
-            "string": "I am suspicious of strangers and expect the worst of them."
+            "string": "Sospecho de los extraños y espero que les suceda lo peor."
           },
           {
             "option_type": "string",
-            "string": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+            "string": "Una vez elijo una meta, me obsesiono con ella en detrimento de todo lo demás."
           }
         ]
       }
