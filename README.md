@@ -1,6 +1,6 @@
 # 🇪🇸 5e-database-spanish ![](https://geps.dev/progress/16)
 
-Contiene la base de datos en español para la API de la 5ª Edición de D&D en http://dnd5eapi.co/
+Contiene la base de datos en español para la API de la 5ª Edición de D&D en https://dnd5e.magical20.com/
 
 ## Progreso de Traducción
 
@@ -52,6 +52,10 @@ Puedes cargar estos datos localmente ejecutando:
 ```bash
 MONGODB_URI=mongodb://localhost/5e-database npm run db:refresh
 ```
+
+## Despliegue de la API
+
+Si deseas desplegar tu propia instancia de la API utilizando esta base de datos traducida, puedes seguir los pasos proporcionados en el repositorio oficial de la API de D&D 5e: [5e-srd-api](https://github.com/5e-bits/5e-srd-api).
 
 ## Código de Conducta
 
