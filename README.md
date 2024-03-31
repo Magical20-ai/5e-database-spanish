@@ -1,20 +1,42 @@
-# 5e-database-spanish (EN PROGRESO)
+# 🇪🇸 5e-database-spanish ![](https://geps.dev/progress/16)
 
 Contiene la base de datos en español para la API de la 5ª Edición de D&D en http://dnd5eapi.co/
+
+## Progreso de Traducción
+
+Aquí puedes ver el progreso actual de la traducción de los archivos de la base de datos. Los archivos marcados con un [x] son los que ya han sido traducidos, mientras que los marcados con un [ ] aún están pendientes de traducción.
+
+- [x] Ability Scores
+- [x] Alignments
+- [X] Backgrounds
+- [ ] Classes
+- [ ] Conditions
+- [ ] Damage Types
+- [ ] Equipment Categories
+- [ ] Equipment
+- [ ] Feats
+- [ ] Features
+- [ ] Languages
+- [ ] Levels
+- [ ] Magic Items
+- [ ] Magic Schools
+- [ ] Monsters
+- [ ] Proficiencies
+- [ ] Races
+- [ ] Rule Sections
+- [ ] Rules
+- [ ] Skills
+- [X] Spells
+- [ ] Subclasses
+- [ ] Subraces
+- [ ] Traits
+- [ ] Weapon Properties
 
 ## Cómo ejecutar
 
 ### Con Docker
 
-Deberías poder construir localmente y luego ejecutar la imagen Docker local. Esto se puede hacer de una de dos maneras:
-
-1. Si solo necesitas una imagen y no estás ejecutando en un M1:
-
-```bash
-docker run ghcr.io/5e-bits/5e-database:latest
-```
-
-2. Si estás ejecutando en un M1 o quieres probar cambios que has realizado en la Base de Datos:
+Deberías poder construir localmente y luego ejecutar la imagen Docker local.
 
 ```bash
 docker build -t 5e-database .
@@ -33,7 +55,20 @@ MONGODB_URI=mongodb://localhost/5e-database npm run db:refresh
 
 ## Código de Conducta
 
-El Código de Conducta se puede encontrar [aquí.](https://github.com/5e-bits/5e-database/wiki/Code-of-Conduct)
+El Código de Conducta se puede encontrar [aquí.](https://github.com/5e-bits/5e-database-spanish/wiki/Code-of-Conduct)
+
+## Contribuciones
+
+¿Te gustaría contribuir a la traducción o corrección de la base de datos? ¡Genial! Agradecemos tus propuestas de contribución a través de Pull Requests.
+
+Para contribuir, sigue estos pasos:
+
+1. Haz fork del repositorio.
+2. Crea una nueva rama para tus cambios.
+3. Realiza tus cambios y asegúrate de seguir las convenciones de nomenclatura y estructura del proyecto.
+4. Envía un Pull Request con una descripción clara de los cambios propuestos.
+
+Antes de enviar tu Pull Request, revisa nuestro Código de Conducta y asegúrate de que tus cambios sean coherentes con él. Todos los aportes son bienvenidos, ¡y juntos podemos hacer de este proyecto algo mejor para la comunidad!
 
 ## Licencia
 
