@@ -5,7 +5,7 @@
     "starting_proficiencies": [
       {
         "index": "skill-insight",
-        "name": "Habilidad: Intuición",
+        "name": "Habilidad: Perspicacia",
         "url": "/api/proficiencies/skill-insight"
       },
       {

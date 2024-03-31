@@ -1,6 +1,6 @@
 [
   {
-    "index": "str",  
+    "index": "str",
     "name": "STR",
     "full_name": "Fuerza",
     "desc": [
@@ -11,18 +11,18 @@
       {
         "name": "Atletismo",
         "index": "athletics",
-        "url": "/api/skills/athletics"  
+        "url": "/api/skills/athletics"
       }
     ],
     "url": "/api/ability-scores/str"
   },
   {
     "index": "dex",
-    "name": "DES",  
+    "name": "DES",
     "full_name": "Destreza",
     "desc": [
       "La Destreza mide la agilidad, los reflejos y el equilibrio.",
-      "Una tirada de Destreza puede representar cualquier intento de moverse con agilidad, rapidez o sigilo, o de mantener el equilibrio en una superficie irregular. Las habilidades Acrobacias, Juegos de Manos y Sigilo reflejan la aptitud en ciertas tiradas de Destreza." 
+      "Una tirada de Destreza puede representar cualquier intento de moverse con agilidad, rapidez o sigilo, o de mantener el equilibrio en una superficie irregular. Las habilidades Acrobacias, Juegos de Manos y Sigilo reflejan la aptitud en ciertas tiradas de Destreza."
     ],
     "skills": [
       {
@@ -31,7 +31,7 @@
         "url": "/api/skills/acrobatics"
       },
       {
-        "name": "Juegos de Manos",  
+        "name": "Juego de Manos",
         "index": "sleight-of-hand",
         "url": "/api/skills/sleight-of-hand"
       },
@@ -57,20 +57,20 @@
   {
     "index": "int",
     "name": "INT",
-    "full_name": "Inteligencia", 
+    "full_name": "Inteligencia",
     "desc": [
       "La Inteligencia mide la perspicacia mental, la memoria y la capacidad de razonamiento.",
       "Una tirada de Inteligencia entra en juego cuando necesitas echar mano de la lógica, la educación, la memoria o el razonamiento deductivo. Las habilidades Arcana, Historia, Investigación, Naturaleza y Religión reflejan la aptitud en ciertas tiradas de Inteligencia."
     ],
     "skills": [
       {
-        "name": "Arcana",
+        "name": "Conocimineto Arcano",
         "index": "arcana",
         "url": "/api/skills/arcana"
       },
       {
         "name": "Historia",
-        "index": "history", 
+        "index": "history",
         "url": "/api/skills/history"
       },
       {
@@ -86,7 +86,7 @@
       {
         "name": "Religión",
         "index": "religion",
-        "url": "/api/skills/religion" 
+        "url": "/api/skills/religion"
       }
     ],
     "url": "/api/ability-scores/int"
@@ -96,7 +96,7 @@
     "name": "SAB",
     "full_name": "Sabiduría",
     "desc": [
-      "La Sabiduría refleja cuán en sintonía estás con el mundo que te rodea y representa la perceptividad e intuición.",
+      "La Sabiduría refleja cuán en sintonía estás con el mundo que te rodea y reflejando tu perspicacia e intuición.",
       "Una tirada de Sabiduría podría reflejar el esfuerzo para interpretar lenguaje corporal, entender los sentimientos de alguien, notar cosas sobre el entorno o cuidar a una persona herida. Las habilidades Trato con animales, Intuición, Medicina, Percepción y Supervivencia reflejan la aptitud en ciertas tiradas de Sabiduría."
     ],
     "skills": [
@@ -106,7 +106,7 @@
         "url": "/api/skills/animal-handling"
       },
       {
-        "name": "Intuición",
+        "name": "Perspicacia",
         "index": "insight",
         "url": "/api/skills/insight"
       },
@@ -157,7 +157,7 @@
         "index": "persuasion",
         "url": "/api/skills/persuasion"
       }
-    ], 
+    ],
     "url": "/api/ability-scores/cha"
   }
 ]
