@@ -1,15 +1,15 @@
-# 🇪🇸 5e-database-spanish ![](https://geps.dev/progress/16)
+# 🇪🇸 5e-database-spanish ![](https://geps.dev/progress/20)
 
 Contiene la base de datos en español para la API de la 5ª Edición de D&D en https://dnd5e.magical20.com/
 
 ## Progreso de Traducción
 
-Aquí puedes ver el progreso actual de la traducción de los archivos de la base de datos. Los archivos marcados con un [x] son los que ya han sido traducidos, mientras que los marcados con un [ ] aún están pendientes de traducción.
+Aquí puedes ver el progreso actual de la traducción de los archivos de la base de datos.
 
 - [x] Ability Scores
 - [x] Alignments
 - [X] Backgrounds
-- [ ] Classes
+- [X] Classes
 - [ ] Conditions
 - [ ] Damage Types
 - [ ] Equipment Categories
