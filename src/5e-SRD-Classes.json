@@ -2104,7 +2104,7 @@
     "url": "/api/classes/fighter"
   },
   {
-    "index": "monje",
+    "index": "monk",
     "name": "Monje",
     "hit_die": 8,
     "proficiency_choices": [
